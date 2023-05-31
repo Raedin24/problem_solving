@@ -9,5 +9,3 @@ def freqAlphabets(s: str) -> str:
             result.append(chr(int(s[i]) + 96))
             i -= 1
     return ''.join(result[::-1])
-
-print(freqAlphabets("10#11#12"))
