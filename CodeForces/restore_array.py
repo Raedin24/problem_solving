@@ -4,7 +4,11 @@ for i in range(t):
     n = int(input())
     a = list(map(int, input().split()))
     test_cases.append((n, a))
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> origin/CodeForces
 for n, a in test_cases:
     good_array = [0] * n
     good_array[0] = a[0]
